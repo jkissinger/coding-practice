@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active:
+    - production
+  application:
+    name: coding-practice
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
